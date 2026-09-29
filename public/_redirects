@@ -1,0 +1,5 @@
+/api/auth-login    /.netlify/functions/auth-login    200
+/api/admin-pricing  /.netlify/functions/admin-pricing  200
+/api/admin-history  /.netlify/functions/admin-history  200
+/api/*              /.netlify/functions/:splat         200
+/*                  /index.html                        200

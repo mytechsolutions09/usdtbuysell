@@ -1,0 +1,9 @@
+name = "valence-otc-api"
+main = "cloudflare-worker/index.js"
+compatibility_date = "2024-09-29"
+
+# Native Cloudflare D1 SQL Binding - Direct access on Cloudflare without .env tokens!
+[[d1_databases]]
+binding = "DB"
+database_name = "valence-otc-db"
+database_id = "370dbf3a-4c0d-4686-8a1e-4c71c4d125e3"
